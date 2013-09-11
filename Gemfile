@@ -37,7 +37,9 @@ group :test, :development do
 end
 
 group :test do
-	gem 'capybara', "2.0.2"
+	gem 'capybara', '2.0.2'
+	gem 'factory_girl_rails', '4.2.1'
+	gem 'factory_girl', '4.2.0'
 end
 
 # Use ActiveModel has_secure_password
